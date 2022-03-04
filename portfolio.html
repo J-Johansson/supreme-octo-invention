@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <script src="easter.js"></script>
+    <title>Document</title>
+    <script> 
+        elite(); 
+    </script>
+</head>
+<body onmousedown="clickEvent(event)">
+    <div class="container">
+        <header class="main-head"> 
+            <h1>Mitt CV</h1>
+            <nav>
+                <li><a href="index.html">Framsida</a></li>
+                <li><a href="experiences.html">Erfarenheter</a></li>
+                <li><a class="active" href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact_me.html">Kontakta Mig</a></li>
+                <li><a href="sida_fem.html">Hmmmmm</a></li>
+            </nav>
+        </header>
+
+        <header>
+            <h2>Portfolio</h2>
+        </header>
+
+        <div class="wrap">
+
+            <h3>UF Företag</h3>
+            
+            <a href="#modal-one" class="btn btn-big">Klicka Här</a>
+            <hr />
+        </div>
+           
+          <!-- Modal -->
+        <div class="modal" id="modal-one" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <h2>UF-företag</h2>
+                    <a href="#" class="btn-close" aria-hidden="true">x</a>
+                </div>
+                <div class="modal-body">
+                    <p>Drev ett UF-företag under gymnasiet med 3 andra vänner. 
+                        Våran idé var att ta emot beställningar och leverera datorer. <br>
+                        <img class="datorpic" src="images/datorbygget.png" alt="db picture" height="100" width="100" >
+                        Kunden skulle berätta vilka behov han/hon hade med datorn och sedan ge oss en budget.
+                        Sen skulle vi beställa datorkomponenterna och bygga en dator just för deras ändamål. <br>
+                        När den sedan är klar så skulle vi leverera och installera om det behövs.<br>
+                        Vi kunde också för en mindre summa bara sätta ihop en lista med alla komponenter, 
+                        om dem vill bygga ihop det själv. <br>
+                        Vi hade också byggt en egen hemsida (tyvärr nedtagen).
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn">Stäng</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrap">
+
+            <h3>Projekt 2</h3>
+            
+            <a href="#modal-two" class="btn btn-big">Klicka Här</a>
+            <hr />
+        </div>
+           
+        <div class="modal" id="modal-two" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <h2>Projekt 2</h2>
+                    <a href="#" class="btn-close" aria-hidden="true">x</a>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Nam laboriosam libero, rem voluptate cumque molestias repellendus harum nesciunt, 
+                        repudiandae temporibus mollitia. 
+                        A beatae tenetur ab obcaecati enim eligendi voluptatum earum?
+                        <img class="susgepic" src="images/susge.png" alt="Susge Picture" height="100" width="100" />
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn">Stäng</a>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="footer-social-links">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="https://www.facebook.com/jonathan.johansson.7524" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/SuspectVM" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="#" title="Github" target="_blank"><i class="fa fa-github"></i></a>
+              </div>
+              <p id="copyright">
+                Copyright &copy; 2022 by JJ.
+            </p>
+          </footer>
+
+    </div>
+</body>
+</html>
